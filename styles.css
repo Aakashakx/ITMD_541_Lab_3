@@ -32,4 +32,10 @@ input[type="text"], input[type="range"] {
     width: 150px;
     text-align: center;
 }
+@media (max-width: 600px) {
+    .container {
+        max-width: 100%;
+        padding: 10px;
+    }
+}
 
